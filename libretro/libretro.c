@@ -1017,6 +1017,11 @@ void retro_run(void)
          system_frame_gen(0);
          break;
       case SYSTEM_SMS:
+      case SYSTEM_SMS2:
+      case SYSTEM_SG:
+      case SYSTEM_GG:
+      case SYSTEM_GGMS:
+      case SYSTEM_MARKIII:
          system_frame_sms(0);
          break;
       default:
